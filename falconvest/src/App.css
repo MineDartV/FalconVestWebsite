@@ -1,0 +1,4 @@
+/* App-specific styles - removed default Vite template styles */
+#root {
+  min-height: 100vh;
+}
