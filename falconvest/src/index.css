@@ -69,6 +69,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Input styling - force dark text */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  color: #18181b !important;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #a1a1aa !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
